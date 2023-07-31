@@ -1,4 +1,3 @@
 set -e 
 
-continerid='docker ps | awk -F " " '{print $1}''
-docker rm -f $containerid
+echo "Stop Script"
